@@ -1,0 +1,16 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    color: #333;
+    font-size: 19px;
+    font-weight: 300;
+    line-height: 1.625;
+    margin: 0;
+    padding: 0;
+}
