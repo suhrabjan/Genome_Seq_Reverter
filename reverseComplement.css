@@ -19,10 +19,11 @@ body {
     font-size: 19px;
     font-weight: 300;
     line-height: 1.625;
+    background: silver;
 }
 
 canvas {
-    position: fixed;
+    position: absolute;
     z-index: -1;
 }
 
