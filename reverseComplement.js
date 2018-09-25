@@ -84,7 +84,7 @@ function Nucleotide(x, y, dx, dy) {
 
 function init() {
     arr = [];
-    for (let i = 0; i < 500; ++i){
+    for (let i = 0; i < 1000; ++i){
         let x = Math.floor(Math.random() * (innerWidth - 50) + 25);
         let y = Math.floor(Math.random() * (innerHeight - 40) + 20);
         let dx = (Math.random() - 0.5) * 1;
