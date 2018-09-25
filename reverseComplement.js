@@ -72,7 +72,7 @@ function Nucleotide(x, y, dx, dy) {
         this.angle += (0.05)*plusOrMinus;
 
 
-        if (Math.abs(mouse.x - this.x) <= 70 && Math.abs(mouse.y - this.y) <= 70 && this.dWidth < 70 && this.dHeight < 70) {
+        if (Math.abs(mouse.x - this.x) <= 70 && Math.abs(mouse.y - this.y) <= 70 && this.dWidth < 50 && this.dHeight < 50) {
             this.dWidth += 3;
             this.dHeight += 3;
         } else if (this.dWidth > 7 && this.dHeight > 7){
@@ -84,7 +84,7 @@ function Nucleotide(x, y, dx, dy) {
 
 function init() {
     arr = [];
-    for (let i = 0; i < 1500; ++i){
+    for (let i = 0; i < 500; ++i){
         let x = Math.floor(Math.random() * (innerWidth - 50) + 25);
         let y = Math.floor(Math.random() * (innerHeight - 40) + 20);
         let dx = (Math.random() - 0.5) * 1;
