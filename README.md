@@ -1,6 +1,14 @@
 # Genome_Sequence_Reverter
 Software Engineering Team Project
 
+Comment from Suhrab
+
+
+
+
+# Genome_Sequence_Reverter
+Software Engineering Team Project
+
 
 Team Members:
 Name: Suhrab 
